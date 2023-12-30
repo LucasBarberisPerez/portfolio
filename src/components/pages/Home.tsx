@@ -1,13 +1,16 @@
-import "../../css/custom.css";
+import "../../css/card.css";
+import "../../css/technologies.css";
+
 import { CardHeader } from "../card/CardHeader";
 import { CardSection } from "../card/CardSection";
 import { FaReact } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
-import { FaAngular } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { SiCsswizardry } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTypescript } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { FaBootstrap } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -36,14 +39,44 @@ export default function Home() {
         <div className="card-section">
           <h3>Tecnologías</h3>
           <div>
-            <FaHtml5 />
-            <SiCsswizardry />
-            <IoLogoJavascript />
-            <SiTypescript/>
+            <div className="technology-description">
+              <FaHtml5 className="html5" />
+              <p>Html5</p>
+            </div>
+            <div className="technology-description">
+              <SiCsswizardry className="css" />
+              <p>CSS3</p>
+            </div>
+            <div className="technology-description">
+              <IoLogoJavascript className="javascript" />
+              <p>Javascript</p>
+            </div>
+
+            <div className="technology-description">
+              <SiTypescript className="typescript" />
+              <p>Typescript</p>
+            </div>
           </div>
+        </div>
+        <div className="card-section">
+          <h3>Frameworks</h3>
           <div>
-            <FaReact />
-            <TbBrandNextjs />
+            <div className="technology-description">
+              <FaReact className="react"/>
+              <p>React</p>
+            </div>
+            <div className="technology-description">
+              <TbBrandNextjs />
+              <p>NextJs</p>
+            </div>
+            <div className="technology-description">
+              <SiTailwindcss className="tailwind" />
+              <p>Tailwind CSS</p>
+            </div>
+            <div className="technology-description">
+              <FaBootstrap className="boostrap" />
+              <p>Bootstrap</p>
+            </div>
             
           </div>
         </div>

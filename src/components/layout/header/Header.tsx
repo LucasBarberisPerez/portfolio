@@ -8,7 +8,7 @@ export default function Header() {
       <div className="header-banner">
         <img
           className="profile-pic"
-          src="https://github.com/Luksdanvip-OG.png"
+          src="/lks-logo.svg"
           alt="ProfilePic"
         />
         <h1>Luksdanvip</h1>

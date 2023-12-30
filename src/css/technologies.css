@@ -1,0 +1,31 @@
+.javascript{
+    color: yellow;
+}
+.typescript{
+    color: #3178C6;
+}
+.css{
+    color: #214CE5;
+}
+.html5{
+    color: orange;
+}
+
+.tailwind{
+    color: #38BDF8;
+}
+.boostrap{
+    color: #8D0BFD;
+}
+.react{
+    color: #017FA5;
+}
+
+div.technology-description{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
