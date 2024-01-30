@@ -11,8 +11,11 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { SiTypescript } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
+  const [t] = useTranslation("global");
+
   return (
     <>
       <section className="info-card">
@@ -22,23 +25,17 @@ export default function Home() {
           name="Lucas Barberis Pérez"
         />
         <CardSection
-          title="Sobre mí"
-          text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
-          voluptates facilis nam fugit error laborum sequi illo excepturi?
-          Voluptates veritatis delectus dignissimos magnam dolorem quo
-          recusandae similique sed tempora dolore!"
+          title={t("about.title")}
+          text={t("about.description")}
         />
         <CardSection
-          title="Experiencia"
-          text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
-          voluptates facilis nam fugit error laborum sequi illo excepturi?
-          Voluptates veritatis delectus dignissimos magnam dolorem quo
-          recusandae similique sed tempora dolore!"
+          title={t("experience.title")}
+          text={t("experience.description")}
         />
 
         <div className="card-section">
-          <h3>Tecnologías</h3>
-          <div>
+          <h3>{t("technology.title")}</h3>
+          <div className="technology-container">
             <div className="technology-description">
               <FaHtml5 className="html5" />
               <p>Html5</p>
@@ -60,9 +57,9 @@ export default function Home() {
         </div>
         <div className="card-section">
           <h3>Frameworks</h3>
-          <div>
+          <div className="technology-container">
             <div className="technology-description">
-              <FaReact className="react"/>
+              <FaReact className="react" />
               <p>React</p>
             </div>
             <div className="technology-description">
@@ -77,7 +74,6 @@ export default function Home() {
               <FaBootstrap className="boostrap" />
               <p>Bootstrap</p>
             </div>
-            
           </div>
         </div>
       </section>

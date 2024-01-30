@@ -1,0 +1,5 @@
+{
+    "about": {"title": "Sobre mí", "description":"Soy un estudiante recién graduado en busca de mi primer empleo como programador, he enfocado mi formación en el desarrollo web, por lo que mi stack esta enfocado al mismo.  "},
+    "experience":{"title":"Experiencia", "description":"Durante mi formación, he realizado proyectos personales, como este portfolio, tambien he colaborado en proyectos conjuntos, utilizando herramientas de gestión de proyecto y versionado del código (Github & Jira)."},
+    "technology":{"title":"Tecnologías"}
+}

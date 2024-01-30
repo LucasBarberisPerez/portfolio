@@ -1,31 +1,34 @@
-.javascript{
-    color: yellow;
+.javascript {
+  color: yellow;
 }
-.typescript{
-    color: #3178C6;
+.typescript {
+  color: #3178c6;
 }
-.css{
-    color: #214CE5;
+.css {
+  color: #214ce5;
 }
-.html5{
-    color: orange;
-}
-
-.tailwind{
-    color: #38BDF8;
-}
-.boostrap{
-    color: #8D0BFD;
-}
-.react{
-    color: #017FA5;
+.html5 {
+  color: orange;
 }
 
-div.technology-description{
-    width: 100%;
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.2rem;
+.tailwind {
+  color: #38bdf8;
+}
+.boostrap {
+  color: #8d0bfd;
+}
+.react {
+  color: #017fa5;
+}
+
+div.technology-description {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+  border: 1px white solid;
+  border-inline-start: none;
+  border-inline-end: none;
 }

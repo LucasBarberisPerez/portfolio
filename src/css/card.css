@@ -27,7 +27,7 @@ section.info-card div.intro {
 section.info-card div.card-section {
   width: 100%;
 }
-section.info-card div.card-section div {
+section.info-card div.card-section div.technology-container {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -47,7 +47,7 @@ section.info-card div.card-section div {
     height: 7rem;
   }
 
-  section.info-card div.card-section div {
+  section.info-card div.card-section div.technology-container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
