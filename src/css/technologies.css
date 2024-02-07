@@ -28,7 +28,6 @@ div.technology-description {
   justify-content: center;
   align-items: center;
   gap: 0.2rem;
-  border: 1px white solid;
-  border-inline-start: none;
-  border-inline-end: none;
+ 
+  
 }

@@ -21,13 +21,10 @@ export default function Home() {
       <section className="info-card">
         <CardHeader
           urlImage="/me.jpg"
-          job="Desarrollador frontend"
+          job={t("job")}
           name="Lucas Barberis Pérez"
         />
-        <CardSection
-          title={t("about.title")}
-          text={t("about.description")}
-        />
+        <CardSection title={t("about.title")} text={t("about.description")} />
         <CardSection
           title={t("experience.title")}
           text={t("experience.description")}
@@ -68,7 +65,7 @@ export default function Home() {
             </div>
             <div className="technology-description">
               <SiTailwindcss className="tailwind" />
-              <p>Tailwind CSS</p>
+              <p>Tailwind</p>
             </div>
             <div className="technology-description">
               <FaBootstrap className="boostrap" />
