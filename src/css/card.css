@@ -7,7 +7,7 @@ section.info-card {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1.2rem;
   box-sizing: border-box;
 }
 section.info-card img {

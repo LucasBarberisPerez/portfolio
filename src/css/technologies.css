@@ -22,12 +22,9 @@
 }
 
 div.technology-description {
-  padding: 1rem;
+  padding: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.2rem;
- 
-  
 }
