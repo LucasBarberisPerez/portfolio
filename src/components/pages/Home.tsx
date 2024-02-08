@@ -20,7 +20,7 @@ export default function Home() {
     <>
       <section className="info-card">
         <CardHeader
-          urlImage="/me.jpg"
+          urlImage="./me.jpg"
           job={t("job")}
           name="Lucas Barberis Pérez"
         />

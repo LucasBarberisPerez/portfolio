@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header>
       <div className="header-banner">
-        <img className="profile-pic" src="/lks-logo.svg" alt="ProfilePic" />
+        <img className="profile-pic" src="./lks-logo.svg" alt="ProfilePic" />
         <h1>Lucasbp</h1>
       </div>
       <nav>
