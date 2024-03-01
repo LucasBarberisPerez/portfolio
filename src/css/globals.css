@@ -1,64 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
-  --main-bg-color: #212121;
   --main-font-color: #fff;
   --main-font-family: "Poppins", sans-serif;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 body {
   background-color: var(--main-bg-color);
   color: var(--main-font-color);
   font-family: var(--main-font-family);
-}
-
-
-a{
-    text-decoration: none;
-    color: inherit;
-}
-a:visited{
-    color: inherit;
-}
-
-p{
-  line-height: 2;
-  font-size: 1rem;
-}
-
-h1,h2,h3{
-  font-weight: bold;
-  letter-spacing: 0.1rem;
-}
-
-h1{
-  font-size: 1.5rem;
-}
-
-h2{
-  font-size: 1.1rem;
-}
-h3{
-  font-size: 1.1rem;
-}
-
-@media screen and (max-width:600px) {
-  h1{
-    font-size: 1.2rem;
-  }
-  
-  h2{
-    font-size: 1rem;
-  }
-  h3{
-    font-size: 0.9rem;
-  }
-  p{
-    font-size: 0.8rem;
-  }
 }
