@@ -14,11 +14,11 @@ import { BiLogoTypescript } from "react-icons/bi";
 export default function FrontendStack() {
   return (
     <div className="p-4 sm:col-span-2 shadow-inner rounded-md flex flex-col gap-2 bg-gray-950">
-      <h2 className="text-3xl md:text-4xl font-bold mb-3">Frontend</h2>
+      <h2 className="text-3xl md:text-4xl font-bold mb-3 text-center">Frontend</h2>
 
-      <div className="flex flex-col sm:flex-row justify-center items-start">
+      <div className="flex flex-col lg:flex-row justify-center items-start">
         <div className="w-full grid grid-cols-3 sm:grid-cols-2 p-2 rounded-xl">
-          <div className="col-span-3 sm:col-span-2 text-center border-2 ">
+          <div className="col-span-3 sm:col-span-2 text-center border-b-2 pb-2">
             <h3 className="text-xl md:text-2xl">Tecnologías</h3>
           </div>
           <TechIcon
@@ -35,32 +35,37 @@ export default function FrontendStack() {
             name={"Javascript"}
             icon={<IoLogoJavascript />}
             iconClassName="text-yellow-200"
+            mainSkill={true}
           />
 
           <TechIcon
             name={"Typescript"}
             icon={<BiLogoTypescript />}
             iconClassName="text-blue-600"
+            mainSkill={true}
           />
         </div>
-        <div className="w-full grid grid-cols-3 sm:grid-cols-2 p-2 rounded-xl">
-          <div className="col-span-3 sm:col-span-2 text-center border-2">
+        <div className="w-full grid grid-cols-3 p-2 rounded-xl">
+          <div className="col-span-3 text-center border-b-2 pb-2">
             <h3 className="text-xl md:text-2xl">Frameworks</h3>
           </div>
           <TechIcon
             name={"React"}
             icon={<FaReact />}
             iconClassName="text-blue-300"
+            mainSkill={true}
           />
           <TechIcon
             name={"NextJs"}
             icon={<TbBrandNextjs />}
             iconClassName="text-white"
+            mainSkill={true}
           />
           <TechIcon
             name={"Astro"}
             icon={<SiAstro />}
             iconClassName="text-orange-400"
+            learning={true}
           />
           <TechIcon
             name={"Svelte"}

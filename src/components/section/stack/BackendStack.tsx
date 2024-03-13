@@ -23,6 +23,7 @@ export default function BackendStack() {
             name="Nodejs"
             icon={<FaNodeJs />}
             iconClassName="text-green-400"
+            learning={true}
           />
         </div>
       </div>

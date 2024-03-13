@@ -1,5 +1,5 @@
 {
-    "job":"Web developer",
+    "job":"Software Developer",
     "about": {"title": "About Me", "description":"I am a recent graduate student seeking my first job as a programmer. I have focused my education on web development, so my stack is geared towards it."},
     "experience":{"title":"Experience", "description":"Throughout my education, I have undertaken personal projects, such as this portfolio. I have also collaborated on joint projects, utilizing project management and code versioning tools (Github & Jira)."},
     "technology":{"title":"Technologies"}
