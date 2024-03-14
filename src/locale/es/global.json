@@ -5,8 +5,8 @@
   "about": {
     "title": "Sobre mí",
     "description": {
-      "intro": "Me llamo Lucas. Empecé en el mundo de la programación en 2019. Previamente fui técnico en sistemas y actualmente estoy recién graduado en desarrollo de aplicaciones web.",
-      "training": "Durante mi formación he enfocado mi aprendizaje en tecnologías frontend, utilizando JavaScript/TypeScript como lenguaje de programación junto con React y Next.js aunque también tengo conocimientos en backend utilizando Java, JSF, Spring."
+      "intro": "Mi nombre es Lucas. Empecé en el mundo de la programación en 2019. Previamente fui técnico en sistemas y actualmente estoy recién graduado en desarrollo de aplicaciones web.",
+      "training": "Durante mi formación he enfocado mi aprendizaje en tecnologías frontend, utilizando JavaScript/TypeScript como lenguaje de programación junto con React y Next.js, aunque también tengo conocimientos en backend con lenguajes como: Java, JSF y Spring."
     },
     "location": "Madrid - Toledo, España"
   },
@@ -26,4 +26,3 @@
   "copiedMail": "Copiado en el portapapeles",
   "errorcopy": "Error al copiar en el portapapeles"
 }
-

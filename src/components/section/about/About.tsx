@@ -4,7 +4,7 @@ function ProfileInfo() {
   const [t] = useTranslation("global");
   return (
     <div className="w-full flex flex-col justify-center items-center overflow-auto  ">
-      <div className="bg-[url('./bg-about.svg')] p-4 rounded-md bg-cover bg-center w-full  flex flex-col justify-center items-center md:w-full bg-black">
+      <div className="bg-[url('/bg-about.svg')] p-4 rounded-md bg-cover bg-center w-full  flex flex-col justify-center items-center md:w-full bg-black">
         <div className="flex flex-col justify-center items-center w-full md:w-3/4 p-4  overflow-hidden scroll-smooth bg-black bg-opacity-45">
           <img
             src="./pictureme.png"
