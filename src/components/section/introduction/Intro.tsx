@@ -26,7 +26,7 @@ export function Intro() {
         <p className="text-center  lg:text-xl">
           {t("degree")}
         </p>
-        <IntroSocials copyMessage={t("copiedMail")}/>
+        <IntroSocials copyMessage={t("copiedMail")} errorMessage={t("errorcopy")}/>
       </div>
     </Section>
   );

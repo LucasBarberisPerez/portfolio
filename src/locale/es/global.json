@@ -23,6 +23,7 @@
     },
     "technology": { "title": "Tecnologías" }
   },
-  "copiedMail": "Copiado en el portapapeles"
+  "copiedMail": "Copiado en el portapapeles",
+  "errorcopy": "Error al copiar en el portapapeles"
 }
 

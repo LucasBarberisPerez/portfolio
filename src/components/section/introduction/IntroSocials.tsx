@@ -5,17 +5,29 @@ import { useState } from "react";
 
 interface Props {
   copyMessage: string;
+  errorMessage:string;
 }
-export function IntroSocials({copyMessage}:Props) {
+export function IntroSocials({copyMessage, errorMessage}:Props) {
   const [isCopied, setisCopied] = useState<boolean>(false); //Clipboard popup
+  const [errorCopy, setErrorCopy] = useState<boolean>(false); //show error
 
   const handleMailClick = async () => {
     //Copy the mail in the clipboard and refresh the state for 3seconds
-    await navigator.clipboard.writeText(Socials.URL_MAIL);
+    try {
+      await navigator.clipboard.writeText(Socials.URL_MAIL);
     setisCopied(true);
     setTimeout(() => {
       setisCopied(false);
     }, 3000);
+    } catch (error) {
+      setErrorCopy(true);
+      setTimeout(() => {
+        setErrorCopy(false);
+      }, 3000);
+
+    }
+    
+  
   };
 
   return (
@@ -30,6 +42,11 @@ export function IntroSocials({copyMessage}:Props) {
         {isCopied && (
           <div className="fixed bottom-2 bg-green-600 p-6 rounded-xl animation-fade-in">
             {copyMessage}
+          </div>
+        )}
+        {errorCopy && (
+          <div className="fixed bottom-2 bg-red-600 p-6 rounded-xl animation-fade-in">
+            {errorMessage}
           </div>
         )}
       </button>

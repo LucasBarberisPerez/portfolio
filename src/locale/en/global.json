@@ -24,5 +24,6 @@
     "technology": { "title": "Technologies" }
   },
 
-  "copiedMail": "Copied to clipboard"
+  "copiedMail": "Copied to clipboard",
+  "errorCopy": "Copy to the clipboard failed"
 }
