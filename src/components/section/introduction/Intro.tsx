@@ -1,8 +1,11 @@
+
+import { useTranslation } from "react-i18next";
 import Section from "../../common/Section";
 import { IntroSocials } from "./IntroSocials";
 import { IntroTags } from "./IntroTags";
 
 export function Intro() {
+  const [t] = useTranslation("global");
   return (
     <Section>
       <div className="p-2 flex flex-col gap-4">
@@ -14,16 +17,16 @@ export function Intro() {
           />
           <div className="text-center">
             <h1 className="text-3xl lg:text-5xl font-bold">
-              Software Developer
+              {t("job")}
             </h1>
             <h2 className="text-2xl lg:text-4xl">Lucas Barberis Pérez</h2>
           </div>
         </div>
-        <IntroTags />
+        <IntroTags jobStatus={t("jobStatus")} location={t("about.location")} />
         <p className="text-center  lg:text-xl">
-          Graduado en desarrollo de aplicaciones web
+          {t("degree")}
         </p>
-        <IntroSocials />
+        <IntroSocials copyMessage={t("copiedMail")}/>
       </div>
     </Section>
   );
