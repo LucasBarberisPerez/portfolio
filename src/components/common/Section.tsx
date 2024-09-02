@@ -1,13 +1,14 @@
+import { ReactNode } from "react";
 
-interface Props{
-    children: React.ReactNode;
+interface SectionProps {
+  children: ReactNode;
+  id: string;
 }
-function Section({children}:Props) {
+export default function Section({ children, id }: SectionProps) {
   return (
-    <div className="flex flex-col justify-center items-center rounded-md gap-2 w-full md:w-3/4  bg-gradient-to-t to-gray-800 from-slate-950">
+    <section
+      className="flex flex-col w-full mt-4 p-4 md:w-3/4 lg:w-2/4  justify-center items-center gap-2 md:gap-6" id={id}>
       {children}
-    </div>
-  )
+    </section>
+  );
 }
-
-export default Section

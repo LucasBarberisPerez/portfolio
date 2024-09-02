@@ -1,28 +1,3 @@
 {
-  "job": "Desarrollador de software",
-  "degree": "Graduado en desarrollo de aplicaciones web",
-  "jobStatus": "Buscando empleo",
-  "about": {
-    "title": "Sobre mí",
-    "description": {
-      "intro": "Mi nombre es Lucas. Empecé en el mundo de la programación en 2019. Previamente fui técnico en sistemas y actualmente estoy recién graduado en desarrollo de aplicaciones web.",
-      "training": "Durante mi formación he enfocado mi aprendizaje en tecnologías frontend, utilizando JavaScript/TypeScript como lenguaje de programación junto con React y Next.js, aunque también tengo conocimientos en backend con lenguajes como: Java, JSF y Spring."
-    },
-    "location": "Madrid - Toledo, España"
-  },
-  "skills": {
-    "title": "Habilidades",
-    "profile": {
-      "title": "Perfil",
-      "description": "Perfil especializado en el desarrollo frontend, con conocimientos en backend y bases de datos."
-    },
-    "legend": {
-      "title": "Leyenda",
-      "mainskill": "Habilidad principal",
-      "learning": "Actualmente aprendiendo"
-    },
-    "technology": { "title": "Tecnologías" }
-  },
-  "copiedMail": "Copiado en el portapapeles",
-  "errorcopy": "Error al copiar en el portapapeles"
+  "navlinks":{"about":"Sobre mí","projects":"Proyectos","skills":"Habilidades"}
 }
