@@ -1,4 +1,4 @@
-# :moyai: Public portfolio for github pages :moyai:
+# :moyai: [DEPRECATED] Public portfolio for github pages :moyai:
 This is **the first portofolio made** to give an introduction about me for apply to differents jobs, it includes social media like Linkedn, this github.
 
 ## Languages
